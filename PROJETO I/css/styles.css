@@ -1,0 +1,258 @@
+/*FullPageChanges*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #000000;
+}
+
+/*TopBanner*/
+.main-banner {
+    background-image: url(../img/Ada-Header-BG.jpg);
+    background-size: 1200px, auto;
+    background-position: top;
+
+    padding: 10rem 0;
+}
+
+.main-banner h1 {
+    color: rgb(54,1,1);
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+/* NAVBAR */
+.navbar-container {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(54,1,1);
+    top: 0px;
+}
+.navbar-container li {
+    opacity: 0.0;
+    font-size: 1px;
+}
+
+
+/*TopIcons*/
+.adawong-icons ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.adawong-icons li {
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    font-size: 28px;
+    color: rgb(255, 205, 226);
+    font-weight: 600;
+}
+
+.adawong-icons img {
+    border: 10px solid rgb(54, 1, 1);
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+/* MiddleSection */
+.MiddleSection {
+    position: relative;
+    width: 60%;
+    margin: 50px auto;
+    left: 0;
+    display: block;
+    background-image: url(../img/Ada-FullBody-BottomSection.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+    text-align: left;
+}
+
+/*QUESTION_ORGANIZER */
+.about-container ul {
+    width: 90%;
+}
+
+.about-container li {
+    padding: 10px;
+    list-style: none;
+    font-size: 15px;
+    width: 500px;
+    border: rgb(54,1,1) solid 3px;
+    margin: 10px 50px;
+}
+.about-container h1 {
+    color: rgb(54,1,1);
+    text-align: center;
+    transition: 2s;
+}
+/* QUESTION_1 */
+#Primeira_aparição_C:hover #Primeira_aparição_Q{
+    display: none;
+   }
+
+#Primeira_aparição_C:hover #Primeira_aparição_A{
+    display: block;
+    background-color: rgb(80, 32, 32);
+    padding: 5px;
+   }
+#Primeira_aparição_A {
+ display: none;
+}
+/* QUESTION_2 */
+#Última_aparição_C:hover #Última_aparição_Q{
+    display: none;
+   }
+
+#Última_aparição_C:hover #Última_aparição_A{
+    display: block;
+    background-color: rgb(80, 32, 32);
+    padding: 5px;
+   }
+
+#Última_aparição_A {
+    display: none;
+   }
+/* QUESTION_3 */
+#Primeira_menção_C:hover #Primeira_menção_Q{
+    display: none;
+   }
+
+#Primeira_menção_C:hover #Primeira_menção_A{
+    display: block;
+    background-color: rgb(80, 32, 32);
+    padding: 5px;
+   }
+
+#Primeira_menção_A {
+    display: none;
+   }
+/* QUESTION_4 */
+#Jogos_como_Personagem_jogável_C:hover #Jogos_como_Personagem_jogável_Q{
+    display: none;
+   }
+
+#Jogos_como_Personagem_jogável_C:hover #Jogos_como_Personagem_jogável_A{
+    display: block;
+    background-color: rgb(80, 32, 32);
+    padding: 5px;
+   }
+
+#Jogos_como_Personagem_jogável_A {
+    display: none;
+   }
+/* QUESTION_5 */
+#Armas_favoritas_C:hover #Armas_favoritas_Q{
+    display: none;
+   }
+
+#Armas_favoritas_C:hover #Armas_favoritas_A{
+    display: block;
+    background-color: rgb(80, 32, 32);
+    padding: 5px;
+   }
+
+#Armas_favoritas_A {
+    display: none;
+   }
+
+/* QUESTION_6 */
+#Associações_C:hover #Associações_Q{
+    display: none;
+   }
+
+#Associações_C:hover #Associações_A{
+    display: block;
+    background-color: rgb(80, 32, 32);
+    padding: 5px;
+   }
+
+#Associações_A {
+    display: none;
+   }
+
+/* ADASQUOTES */
+
+.quote-container {
+    display: flex;
+    padding-bottom: 80px;
+}
+.adawong_quote {
+  background-color: #0a0101;
+  padding: 30px;
+  padding-bottom: 10px;
+  width: 70%;
+  margin: auto;
+
+}
+
+.adawong_quote blockquote {
+    font-weight: bold;
+    font-style: italic;
+  font-size: 30px;
+  color: rgb(54,1,1);
+}
+
+.adawong_quote p {
+    padding-top: 30px;
+    font-style: italic;
+    text-align: right;
+    color: rgb(54,1,1);
+}
+/* Playnow_Section */
+.playnow_icons ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.playnow_icons li {
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    font-size: 28px;
+    color: rgb(255, 205, 226);
+    font-weight: 600;
+}
+
+.playnow_icons img {
+    width: 300px;
+    height: 800px;
+    object-fit: contain;
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(61, 1, 1);
+    background-color: rgb(24, 0, 0);
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+}
+
+.footer-container li {
+    display: inline-block;
+    margin-left: 40px;
+
+} 
