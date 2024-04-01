@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="../PROJETO II/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!--USER NAV BAR -->
-    <div class="user_navbar_continer">
+    <div class="user_navbar_container">
         <nav>
-            <ul class="usernavbar_itens">
+            <ul class="user_navbar_itens">
                 <li>
-                    <a href="#"><img src=""/>Steam</a>
+                    <a href="#"><span id="symbol2">Ⓨ</span>Steam</a>
                 </li>
                 <li>
                     <a href="#">View</a>
@@ -26,26 +26,26 @@
                 <li>
                     <a href="#">Help</a>
                 </li>   
-                <li>
-                    <a href="#"><img src=""/></a>
+                <li id="User_Navbar_rightside">
+                    <a href="#"><img src="img/Steamnews.png"/></a>
+                </li>
+                <li id="User_Navbar_rightside2">
+                    <a href="#"><img src="img/Steamnotification.png"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src=""/></a>
+                    <a href="#"><img src="img/Steamyasuuser.png"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src=""/></a>
+                    <a href="#"><img src="img/SteamBigPicture.png"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src=""/></a>
+                    <a href="#"><img src="img/SteamMinimaze.png"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src=""/></a>
+                    <a href="#"><img src="img/SteamResize.png"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src=""/></a>
-                </li>
-                <li>
-                    <a href="#"><img src=""/></a>
+                    <a href="#"><img src="img/SteamClose.png"/></a>
                 </li>
             </ul>
             
@@ -54,12 +54,12 @@
             <!-- MENU NAVBAR -->
         <div class="menu_navbar_container">
             <nav>
-                <ul class="menu_navbar">
+                <ul class="menu_navbar_itens">
                     <li>
-                        <a href="#"><img src=""/></a>
+                        <a id="symbol" href="#">↩</a>
                     </li>
                     <li>
-                        <a href="#"><img src=""/></a>
+                        <a id="symbol" href="#">↪</a>
                     </li>  
                     <li>
                         <a href="#">STORE</a>
@@ -79,38 +79,58 @@
 
             <!-- SEARCH BAR -->
             <div class="search_bar_container">
-                <ul class="search_bar">
+                <nav>
+                <ul class="search_bar_itens">
                     <li>
-                        <a href="#"><img src=""/></a>
+                        <a id="symbol3" href="#">↻</a>
                     </li>
                     <li>
-                        <a href="#"><img src=""/></a>
-                    </li>
-                    <li>
-                        <a href="#">https://store.steampowered.com/</a>
+                        <a href="#"><span id="symbol3">⊘ </span>https://store.steampowered.com/</a>
                     </li>   
                 </ul>
+            </nav>
             </div>
             <!-- Store Menu -->
+            <div class="wishlist_buttom">
+              <a href="#"><h2>Wishlist(13)</h2></a>
+        </div>
             <div class="store_menu_bar_container">
-                <h2>Wishlist(13)</h2>
-                <ul class="store_menu_bar">
-                        <li><img src=""/>Your Store</li>
-                        <li>New & Noteworthy</li>
-                        <li>Categories</li>
-                        <li>Points Shop</li>
-                        <li>News</li>
-                        <li>Labs</li>
-                        <li><img src=""/>Search</li>
+                <nav>
+                 <ul class="store_menu_bar_itens">
+                        <li class="icon">
+                            <a href="#"><img class="iconimg" src="img/Steamicon.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#">Your Store</a>
+                        </li>
+                        <li>
+                            <a href="#">New & Noteworthy</a>
+                        </li>
+                        <li>
+                            <a href="#">Categories</a>
+                        </li>
+                        <li>
+                            <a href="#">Points Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Labs</a>
+                        </li>
+                        <li class="search">
+                            <a href="#"><img class="searchimg" src="img/searchbar.png"/></a>
+                        </li>
 
                 </ul>
+            </nav>
             </div>
         <!-- Rodapé Steam -->
-            <footer class="footer-container">
+            <footer class="footer_container">
                 <ul>
-                    <li><img src=""/>Add a Game</li> 
-                    <li><img src=""/>Manage Downloads</li>
-                    <li>Friends & Chat<img src=""/></li>
+                    <a id="footer1" href="#">⊞  Add a Game</a> 
+                    <a id="footer2" href="#"><span id="download">.⬇.</span>  Downloads</a>
+                    <a id="footer3" href="#">Friends & Chat  ✉</a>
                 </ul>
                 </footer>
 </body>
