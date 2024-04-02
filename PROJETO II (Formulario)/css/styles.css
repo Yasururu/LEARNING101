@@ -16,7 +16,7 @@ body {
     height: 40px;
     background-color: #171d25;
     padding: 5px;
-    position: sticky;
+    position:sticky;
     z-index: 1;
     top: 0px;
 }
@@ -69,9 +69,9 @@ nav {
     height: 30px;
     background-color: #171d25;
     padding: 5px;
-    position: sticky;
-    z-index: 2;
-    top: 0px;
+    position:sticky;
+    z-index: 1;
+    top: 40px;
 
 }
 
@@ -120,9 +120,9 @@ nav {
     height: 25px;
     background-color: #171d25;
     padding: 5px;
-    position: sticky;
-    z-index: 2;
-    top: 0px;
+    position:sticky;
+    z-index: 1;
+    top: 70px;
 
 }
 
@@ -278,7 +278,7 @@ nav {
     max-width:  100%;
 }
 
-.Questions2_Container {
+.Questions2_Container { 
     padding: 1rem 0;
 }
 .Questions2_Container ul {
@@ -290,15 +290,153 @@ nav {
 .Q2Header_Itens li {
     flex: 1 1 200px;
     list-style: none;
-    font-size: 12px;
-    color: rgb(255, 205, 226);
-    font-weight: 600;
     padding: 10px;
 }
 
+.Q2_Organizer {
+    display: inline-block;
+    margin: 0 4px 2px 0;
 
+}
+.Q2_Container {
+  margin: -1.5% 20%;
+  width: 60%;
+  padding-bottom: 25px;
+}
+.Q2_Container ul {
+    margin: 10px 15px;
+}
+.Q2_Container li {
+    font-size: 12px;
+    margin: 0px 10px;
+   list-style: none;
+   color:#dcdedf;
+}
+/* Q3 */
+.Questions3_Container img {
+    max-width:  100%;
+}
+
+.Questions3_Container { 
+    padding: 1rem 0;
+}
+.Questions3_Container ul {
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+}
+
+.Q3Header_Itens li {
+    flex: 1 1 200px;
+    list-style: none;
+    padding: 10px;
+}
+/*Q3_Itens*/
+
+.Q3_Container {
+    margin: -1% 20%;
+    width: 60%;
+    padding-bottom: 25px;
+}
+.Q3_Organizer {
+    margin: 0 40px;
+    display: inline-block;
+}
+.Q3_Organizer label {
+    font-size: 14px;
+    color: #dcdedf;
+}
+.Q3_Organizer_itens {
+    margin-top: 10px;
+    text-align: center;
+}
+/*Questions 4 */
+.Questions4_Container img {
+    max-width:  100%;
+}
+
+.Questions4_Container { 
+    padding: 1rem 0;
+}
+.Questions4_Container ul {
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+}
+
+.Q4Header_Itens li {
+    flex: 1 1 200px;
+    list-style: none;
+    padding: 10px;
+}
+/* Q4_Itens */
+
+.PO_Container {
+   width: 60%;
+   margin: 0 20%;
+   padding-bottom: 25px;
+}
+.PO_Organizer {
+    margin: 0 30px;
+    display: inline-block;
+}
+.PO_Organizer label {
+    font-size: 14px;
+    color: #dcdedf;
+}
+.PO_Organizer_itens {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+textarea {
+    font-size: 15px;
+    color: #dcdedf;
+    width: 200px;
+    height: 150px;
+    opacity: 80%;
+    background-color: #171d25;
+    resize: none;
+    border: solid 1px #283a50;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    outline: none !important;
+}
+
+/* SUBMIT */
+.end_buttom_container {
+     width: 80%;
+     margin: 0 10%;
+     text-align: center;
+}
+.end_buttom {
+  background-color: #1b2838;
+  color: #dcdedf;
+  border: 2px solid #171d25;
+  width: 150px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 2s;
+  font-weight: 900;
+}
+.end_buttom:hover {
+    background: linear-gradient(to left, #1b397e, #171d25, #1b397e);
+    width: 80%;
+    border: 2px solid #1b397e;
+    color: #2e64e0;
+    font-weight: 900;
+
+}
 /* Rodapé Steam */
-
+.empty_space {
+    opacity: 0%;
+    padding-bottom: 200px;
+}
 footer {
     text-align: center;
     font-weight: 900;
@@ -310,11 +448,6 @@ footer {
     padding: 20px 0;
 }
 
-
-.footer_container li {
-    display: inline-block;
-    margin-left: 40px;
-}
 
 #download {
     text-decoration: underline solid #8b929a;
