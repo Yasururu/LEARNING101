@@ -31,13 +31,13 @@ body {
 }
 
 .bear-head-itens img {
-    width: 70%;
+    width: 50%;
 }
 #leye {
     margin: 0 -100px;
 }
 #nose {
-    margin: 0 -100px;
+    margin: 0 -150px;
 }
 #reye {
     margin: 0 -100px;
@@ -76,7 +76,7 @@ body {
     }
 
     .bear-head-itens img {
-        width: 60%;
+        width: 50%;
     }
     #leye {
         margin: 0 -80px;
