@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg2.png); 
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: #181127;
+}
+
+/* bear head */
+
+.bear-head ul {
+    display: flex;
+    width: 40%;
+    margin: 13% 30%;
+    position: fixed;
+
+}
+
+.bear-head li {
+    flex: 1 1 200px;
+    text-align: center;
+    list-style: none;
+}
+
+.bear-head-itens img {
+    width: 70%;
+}
+#leye {
+    margin: 0 -100px;
+}
+#nose {
+    margin: 0 -100px;
+}
+#reye {
+    margin: 0 -100px;
+}
+
+#nose:hover + #reye + #leye {
+    opacity: 100;
+}
+
+/* plataform symbol */
+.plataform_container {
+    position: absolute;
+}
+
+.plataform_container img {
+    position: fixed;
+    bottom: 160px;
+    right: 160px;
+    width: 13%;
+}
+
+#tablet,
+#phone {
+    display: none;
+}
+
+/* RESPONSIVIDADE */
+/* COMPUTADORES 4K */
+@media (max-width:1600px) {
+
+    .plataform_container img {
+        position: fixed;
+        bottom: 110px;
+        right: 60px;
+        width: 13%;
+    }
+
+    .bear-head-itens img {
+        width: 60%;
+    }
+    #leye {
+        margin: 0 -80px;
+    }
+    #nose {
+        margin: 0 -80px;
+    }
+    #reye {
+        margin: 0 -80px;
+    }
+}
+/* COMPUTADORES MENORES */
+@media (max-width: 1100px) {
+    
+    .bear-head ul {
+        width: 50%;
+        margin: 25% 25%;
+    
+    }
+    
+    .bear-head-itens img {
+        width: 40%;
+    }
+    #leye {
+        margin: 0 -80px;
+    }
+    #nose {
+        margin: 0 -150px;
+    }
+    #reye {
+        margin: 0 -80px;
+    }
+     body {
+        background-size: 100% 110%;
+     }
+    
+    .plataform_container img {
+    position: fixed;
+    bottom: 110px;
+    right: 65px;
+    width: 13%;
+}
+
+}
+
+/* TABLETS */
+
+@media (max-width: 900px) {
+
+    .bear-head ul {
+        width: 60%;
+        margin: 35% 19%;
+    
+    }
+
+    .bear-head-itens img {
+        width: 30%;
+    }
+
+    #leye {
+        margin: 0 -100px;
+    }
+    #nose {
+        margin: 0 -200px;
+    }
+    #reye {
+        margin: 0 -100px;
+    }
+
+    body {
+        background-image: url(../img/bg.png); 
+        
+    }
+
+    .plataform_container img {
+        position: fixed;
+        bottom: 110px;
+        right: 45px;
+        width: 20%;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 576px) {
+    .bear-head ul {
+        width: 60%;
+        margin: 70% 19%;
+    
+    }
+
+    .bear-head-itens img {
+        width: 30%;
+    }
+    #leye {
+        margin: 0 -80px;
+    }
+    #nose {
+        margin: 0 -130px;
+    }
+    #reye {
+        margin: 0 -80px;
+    }
+
+    .plataform_container img {
+        position: fixed;
+        bottom: 110px;
+        right: 20px;
+        width: 25%;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #phone {
+        display: block;
+    }
+}
+
+/* MINI CELULARES */
+@media (max-width: 375px) {
+    .bear-head ul {
+        width: 70%;
+        margin: 80% 14%;
+    
+    }
+
+    .bear-head-itens img {
+        width: 25%;
+    }
+    #leye {
+        margin: 0 -80px;
+    }
+    #nose {
+        margin: 0 -150px;
+    }
+    #reye {
+        margin: 0 -80px;
+    }
+
+    .plataform_container img {
+        position: fixed;
+        bottom: 120px;
+        right: 15px;
+        width: 25%;
+    }
+}
+/* MINI MINI CELULARES */
+
+@media (max-width: 350px) {
+    .bear-head ul {
+        width: 70%;
+        margin: 95% 14%;
+    
+    }
+
+    .bear-head-itens img {
+        width: 25%;
+    }
+    #leye {
+        margin: 0 -80px;
+    }
+    #nose {
+        margin: 0 -130px;
+    }
+    #reye {
+        margin: 0 -80px;
+    }
+
+    .plataform_container img {
+        position: fixed;
+        bottom: 120px;
+        right: 15px;
+        width: 25%;
+    }
+}
